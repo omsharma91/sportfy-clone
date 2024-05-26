@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sportfy1.css">
+    <link rel=
+    "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="left">  
+
+            <div class="home">
+                <img class="invert" src="logo.svg" alt="">
+                <ul>
+                    <li class="hm"><img class="invert" src="home.svg" alt="">Home</li>
+                    <li class="srch"><img class="invert" src="search.svg" alt="">search</li>
+                </ul>
+            </div>
+
+            <div class="library">
+
+                <div>
+                    <img class="invert lib" src="library.svg" alt="">
+                    <span class="txt">Your library</span>
+                    <img class="invert lib_plus" src="plus.svg" alt="">
+                </div>
+
+                <div class="songlist hide" id="sng">
+
+                    <div class="songitem">
+                        <span class="songName"></span><i id="1" class="far songItemPlay fa-play-circle "></i>
+                    </div>
+                    <div class="songitem">
+                        <span class="songName"></span><i id="2" class="far songItemPlay fa-play-circle "></i>
+                    </div>
+                    <div class="songitem">
+                        <span class="songName"></span><i id="3" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                    <div class="songitem">
+                        <span class="songName"></span><i id="4" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                    <div class="songitem">
+                        <span class="songName"></span><i id="5" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                    <div class="songitem">
+                        <span class="songName"></span><i id="6" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="footer">
+                    <div class="top">
+                        <a href=""><span class="spn">Legal</span></a>
+                        <a href=""><span class="spn">Privacy Center</span></a>
+                        <a href=""><span class="spn">Privacy Policy</span></a>
+                    </div>
+                    <div class="mid">            
+                        <a href=""><span class="spn">Cookies</span></a>
+                        <a href=""><span class="spn">About Ads</span></a>
+                        <a href=""><span class="spn">Accessibility</span></a>
+                    </div>
+                    <div class="bot">
+                        <a href=""><span class="spn">Cookies</span></a>
+                    </div> 
+                    <button class="btn"><img src="eng.svg" alt="" class="invert eng"><span>English</span></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="head">
+                <div class="logo">
+                    <span class="img"><img src="leftarr.svg" alt="" class="invert"></span>
+                    <span class="rig"><img src="rightarr.svg" alt="" class="invert"></span>
+                    <span class="sign">Sign up</span>
+                    <button class="log">Log In</button>
+                </div>    
+            </div>
+            <div class="search hide">
+                <h1>Search For Your Favourites Song</h1>
+                <img src="search.svg" alt="">
+                <input type="search">
+            </div>
+            <div class="login hide">
+                <div class="username">
+                    <button>User Name</button>
+                    <input type="email" name="email" value="" required>
+                </div>
+                <div class="password">
+                    <button>Password</button>
+                    <input type="password" name="password" value="" required>
+                </div>
+                <button class="loginbtn">login</button>
+            </div>
+            <div class="firstAlbum hide" id="album">
+                  <img src="covers/1.png" alt="">  
+                  <header class="txts">Hits of Rihanna</header>
+                <div class="playListAlbum1">
+                    <div class="playlist_song">
+                        <span class="songNames"></span><i id="1" class="far songItemPlay fa-play-circle "></i>
+                    </div>
+                    <div class="playlist_song">
+                        <span class="songNames"></span><i id="2" class="far songItemPlay fa-play-circle "></i>
+                    </div>
+                    <div class="playlist_song">
+                        <span class="songNames"></span><i id="3" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                    <div class="playlist_song">
+                        <span class="songNames"></span><i id="4" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                    <div class="playlist_song">
+                        <span class="songNames"></span><i id="5" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                    <div class="playlist_song">
+                        <span class="songNames"></span><i id="6" class="far songItemPlay fa-play-circle"></i>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="title">Spotify Playlist</div>
+
+            <div class="music">
+                <div class="box1" id="album_1">
+                    <img src="1.png" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="2.png" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="3.png" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="4.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="5.png" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="6.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="7.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="8.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="9.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="10.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="11.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="12.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="13.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="14.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="15.jpg" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+                <div class="box1">
+                    <img src="1.png" alt="" id="0">
+                    <h1>Happy Hits!</h1>
+                    <p>Hits to booste your mood and fill you with happiness</p>
+                </div>
+
+            </div>
+            <div class="bottom hide" id="btm">
+                <div class="bar">
+                    <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+                    <div class="icon">
+                        <i class="fa-solid fa-3x fa-forward-step" id="previous"></i>
+                        <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+                        <i class="fa-solid fa-3x fa-backward-step" id="next"></i>
+                    </div>
+                    <div class="time">
+                        <span id="tm"></span>
+                    </div>
+                </div>
+                <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        </div>
+    </div>
+    <script src="sportfy1.js"></script>
+</body>
+</html>
